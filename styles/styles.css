@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+a {
+    color: rgb(43, 132, 255);
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+  figcaption {
+      color: rgb(255, 255, 255);
+      font-family: 'Roboto', sans-serif;
+  }
+  p { 
+      color: rgb(255, 255, 255);
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.2rem;
+
+  }
+  h1 {
+    font-size: 3rem;
+      color: rgb(255, 217, 0);
+      text-align: center;
+      font-family: 'Archivo Black', sans-serif;
+  }
+ h3 {
+    font-size: 1rem;
+      color: rgb(255, 255, 255);
+      text-align: left;
+      font-family: 'Archivo Black', sans-serif;
+  }
+figcaption {
+    font-style: italic;
+}
+iframe {
+    margin-top: 1rem;
+    text-align: center;
+}
+img {
+    margin-top: 1rem;
+}
+.video1{
+   
+   display: flex;
+    justify-content: center;
+}
+
+  @media screen and (min-width: 600px) {
+    body {
+      
+      margin: 30px 100px;
+    
+    }
+  }
